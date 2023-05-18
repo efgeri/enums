@@ -30,6 +30,6 @@ public class HotelTest {
     @Test
     public void canAddBookingToRoom() {
         hotel.addGuestsToRoom(booking);
-        assertEquals(2, hotel.getBedrooms().get(2).getGuestList().get(0).getNumberOfGuests());
+        assertEquals(2, hotel.getBedrooms().get(2).getGuestList().size());
     }
 }

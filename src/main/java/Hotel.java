@@ -14,8 +14,15 @@ public class Hotel {
         for (BedRoom bedroom : bedrooms){
             if (bedroom.getRoomCapacity() >= booking.numberOfGuests){
                 bedroom.setGuestList(booking);
+
                 return;
             }
+        }
+    }
+
+    public void removeGuests(Booking booking){
+        for (BedRoom bedRoom : bedrooms){
+            if (booking == )
         }
     }
 

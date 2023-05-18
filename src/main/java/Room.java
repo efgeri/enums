@@ -23,7 +23,9 @@ public abstract class Room {
     }
 
     public void setGuestList(Booking booking) {
-        this.guestList.add(booking);
+        for ( int i = 0 ; i <  booking.getNumberOfGuests(); i++){
+            this.guestList.add(booking);
+        }
     }
 
     public ArrayList<Booking> getGuestList() {
