@@ -31,4 +31,8 @@ public abstract class Room {
     public ArrayList<Booking> getGuestList() {
         return guestList;
     }
+
+    public void emptyRoom(){
+        this.guestList = new ArrayList<>();
+    }
 }
