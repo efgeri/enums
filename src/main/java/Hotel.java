@@ -20,11 +20,11 @@ public class Hotel {
         }
     }
 
-    public void removeGuests(Booking booking){
-        for (BedRoom bedRoom : bedrooms){
-            if (booking == )
-        }
-    }
+//    public void removeGuests(Booking booking){
+//        for (BedRoom bedRoom : bedrooms){
+//            if (booking == )
+//        }
+//    }
 
     public ArrayList<BedRoom> getBedrooms() {
         return bedrooms;
